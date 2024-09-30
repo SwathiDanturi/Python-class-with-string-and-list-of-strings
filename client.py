@@ -2,8 +2,9 @@
 Demonstrate functionality of the Paragraph class.
 File: src/client.py
 Initial developers: COMP 801 instructors
-Developer: enter your name
-Collaborator(s): enter your collaborator(s) names
+Developer: Swathi Danturi
+Collaborator(s): None
+Date: 09/30/2024
 """
 from notes import Notes
 
