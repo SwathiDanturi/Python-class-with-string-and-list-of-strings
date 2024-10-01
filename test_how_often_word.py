@@ -14,8 +14,8 @@ def test_how_often_word_with_repetitive_words():
     """
     Test Notes instance method how_often_word() with repetitive words
     """
-    test_sentence = "This is a test sentence This is a test This is a This is This"
-    expected = {'This': 5, 'is': 4, 'a': 3, 'test': 2, 'sentence': 1}
+    test_sentence = "This is a test sentence This is a test This is a This is"
+    expected = {'This': 4, 'is': 4, 'a': 3, 'test': 2, 'sentence': 1}
     actual = Notes.how_often_word(test_sentence)
     assert actual == expected
 
