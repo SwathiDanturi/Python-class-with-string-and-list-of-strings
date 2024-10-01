@@ -53,3 +53,4 @@ class Notes:
 
         Implementation requirement: use `how_often_word()`
         """
+        return Notes.how_often_word(" ".join(self.notes))

@@ -16,7 +16,7 @@ def test_word_histogram_with_repetitive_words():
     """
     notes_obj = Notes(["This", "is", "a", "test", "This", "is", "test"])
     expected = {'This': 2, 'is': 2, 'a': 1, 'test': 2}
-    actual = notes_obj.test_word_histogram()
+    actual = notes_obj.word_histogram()
     assert actual == expected
 
 
@@ -26,7 +26,7 @@ def test_word_histogram_without_repetitive_words():
     """
     notes_obj = Notes(["Print", "my", "unique", "dictionary"])
     expected = {'Print': 1, 'my': 1, 'unique': 1, 'dictionary': 1}
-    actual = notes_obj.test_word_histogram()
+    actual = notes_obj.word_histogram()
     assert actual == expected
 
 
