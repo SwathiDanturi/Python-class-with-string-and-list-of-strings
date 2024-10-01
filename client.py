@@ -19,6 +19,8 @@ def main():
     print(f'Notes count: {n_count}')
 
     # create another Notes object and find out something else about it.
+    notes_sentence = "write test methods and write test cases"
+    print(Notes.how_often_word(notes_sentence))
 
 
 main()
